@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("aaa\n");
+	printf("aaab\n");
   	printf("hello\n");
 }
