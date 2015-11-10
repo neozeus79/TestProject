@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# sh6.  
+# 1. if
+
+name="root1"
+
+if [[ "$name" == "root" ]]  # test, [ ] , [[ ]] , (( ))
+then 
+	echo "root"
+elif [[ "$name" == "aaa" ]]
+then
+	echo "aaa"	
+else
+	echo "others"
+fi
+
+# 2. then 
+
+if [[ "$name" == "root1" ]]; then
+	echo "root1"
+fi
+
+# 3. file exists 
+if [[ -f "sh2" ]]
+then 
+	echo "sh2 is exits"
+fi
+
+
+

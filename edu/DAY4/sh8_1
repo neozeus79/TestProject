@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# sh8-1.
+
+add()
+{
+	echo "add"
+	sum=$(( $1 + $2 ))
+	return $sum
+}
+
+# source ./sh8_1
+# . ./sh8_1
+# unset -f add
+

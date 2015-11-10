@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# sh 10.
+
+# array
+myArray=("AA" "BB" "CC")
+
+# use array
+echo ${myArray[0]}
+echo ${myArray[1]}
+echo ${myArray[*]} # all elements
+echo ${myArray[@]} # 
+echo ${!myArray[@]} # 0 1 2
+echo ${#myArray[@]} # count(3)
+echo ${#myArray[0]} # [0] string length(2)
+
+
+i=0
+for (( i=0; i<5; i++ ))
+do
+	echo ${myArray[$i]}
+done
+
+
+for n in ${!myArray[@]}   # 0 1 2
+do
+	echo ${myArray[$n]}
+done

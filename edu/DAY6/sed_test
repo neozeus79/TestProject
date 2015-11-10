@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# sed_test
+
+# data file 준비
+#ls ~ -al > sed_data.txt
+
+# find : 파일 검색
+# grep : 파일에서 문자열 검색
+# awk : 출력
+# sed : 파일 조작(변경) 편집기
+
+# 1. sed (stream lined editor) 기본 모양
+# sed '명령옵션' filename 	# file을 조작하는 함수
+
+#sed -n '1,3 p' sed_data.txt 	# 1 ~ 3 행 까지 출력 
+							# p: print 옵션
+
+# 정규 표현식으로 검색 후 출력. txt 문자열을 검색 후 출력해 보자
+# sed -n '/txt/p' sed_data.txt
+
+# d 명령 : 삭제
+# sed '1, 10d' sed_data.txt 	#1 ~ 10 행 삭제
+
+# s 명령 : 치환
+sed 's/neozeus/kkk/' sed_data.txt 	# neozeus kkk 로 치환
+sed 's/neozeus/kkk/g' sed_data.txt 	# neozeus kkk 로 모두 치환
+

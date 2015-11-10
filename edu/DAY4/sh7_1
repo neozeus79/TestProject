@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# while
+
+i=0
+
+while (($i<10) 		
+do
+	echo $i
+	i=$((i+1))
+done
+
+
+while :
+while true
+do 
+	echo "infinite loop"
+	sleep 1
+done
+

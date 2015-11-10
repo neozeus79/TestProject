@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# awk_test
+
+# test_file
+#ps -ef > data.txt
+
+
+# 1. 기본모양 - 원하는 필드를 출력
+#awk '{print $1, $2, $8}' data.txt
+
+# 2. 정규 표현식 사용 가능 - '/원하는 표현식/'
+#awk '/sshd/' data.txt # sshd 검색
+#awk '/sshd/{print $3, $8}' data.txt #정규 표현식 + print
+
+# 3. 산술 및 논리연산도 가능 - ' ' 로 묶어서 사용
+#awk '$3 > 5000' data.txt # PID 가 5000 이상인 경우 출력
+#awk '$3 > 5000{print $8}' data.txt # PID가 10000 이상인 경우의 프로세스 이름 ($8) 만 출력
+
+# ** summary **
+#'/ /' : 정규 표현식
+#'   ' : 산술 및 논리 연산
+#'{ }' : print 및 제어(if,while) 구문...
+
+# 4. {} 안에는 스크립트 제어 명령어를 사용한 프로그램이 가능
+#awk '{ max = ($2 > $3) ? $2 : $3; process=$8; print "max( " $8 " )=" max }' data.txt  # max 는 지역 변수
+
+# 5. awk 내장 변수
+#awk '{ print NR, NF, $NF }' data.txt 	# NR: 라인 넘버, NF: 필드 개수, $NF: 마지막 필드를 출력하게 됨.
+
+# 6. BEGIN, END
+#awk 'BEGIN{FS=" ";OFS="\t";ORS="\n\n"}{print $1, $2, $3}END{print "total record is "NR}' data.txt
+	# OFS = output field seperator
+	# ORS = output record seporator
+
+# 
+awk 'BEGIN 	{
+			print "-------"
+			printf "%10s %10s %10s\n", "ID", "PASSWD", "UID"
+			print "-------"
+			}
+	$2 > 5000 && $2 != "PID" { printf "%10s %10s %10s\n", $1, $2, $3}
+	END 	{ print "$$$$$" }
+' data.txt
+
+
+
+
+

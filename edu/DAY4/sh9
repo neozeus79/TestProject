@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# sh9
+
+# name="root" # this script only
+export name="root"
+./test 		#script name
+

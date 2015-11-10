@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# sh8.
+
+# 1. 
+
+function foo
+{
+	echo "foo"
+
+}
+
+goo()
+{
+	echo "goo"
+}
+
+function hoo()
+{
+	echo "hoo"
+}
+
+
+#
+foo
+goo
+hoo
+
+add()
+{
+	sum=$(( $1 + $2 ))
+	return $sum
+}
+
+add 10 20
+echo $?
+
+
+test()
+{
+	msg="hello world"
+	local msg="hello world2"
+	
+}
+
+test
+echo $msg
+
+
+
+

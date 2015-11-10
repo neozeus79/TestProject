@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# find_test
+# 리눅스 핵심 명령어 : find, grep, awk, sed 그리고 정규 표현식, 쉘
+
+# 1. find : 파일 찾기 - 교재 17장 211p
+
+# 1. find 기본 모양
+
+# 홈디렉토리 모든 내용
+#find ~ 
+
+# count 
+#echo ">>> all"
+#find ~ | wc -l
+
+
+# type 옵션 , 교재 214p
+## d : directory
+## 
+#echo ">>> directory"
+#find ~ -type d | wc -l
+
+
+# size + 크다 / - 작다
+#echo ">>> *.c & +1M"
+#find ~ -type f -name "*.c" -size +1M | wc -l 
+
+# 홈디레토리 모든 파일 중에  최근 3일이내 수정한 파일 열거
+# find ~ -type f -ctime -1 
+
+# 1k 보다 크고, 3k 보다 작은 파일
+#find ~ -type f \( -size +1k -and -size -23k \)  | wc -l # () 를 사용한 논리 연산
+
+# 3. find로 찾은 후 액션 (연산수행)
+#find ~ -type f -name "*.swp"
+#find ~ -type f -name "*.swp" -delete # 미리 정의된 -delete 명령 수행 (주의!!!  복구 안됨!)
+
+#find ~ -type f -name "foo*" -exec ls -l {} \; 	# 중요: 사용자 정의 액션 (221p) 
+												# 반드시 ; 로 끝나야함
+												# ';' 또는 \; 로 표현
+
+
+
+# -exec vs -ok
+#find ~ -type f -name "*.swp" -exec rm -r {} ';' 	# 무조건 삭제
+#find ~ -type f -name "*.swp" -ok rm -r {} ';' 		# 확인 후 실행 (삭제) 221p
+
+
+
+# 액션과 성능 향상
+#find ~ -type f -name "foo*" -exec echo {} ';' 	# echo는 파일 갯수 만큼 실행
+#echo ">>> "
+#find ~ -type f -name "foo*" -exec echo {} '+' 	# echo는 1번만 실행
+												# 모든 파일이 하나로 묶고 공백으로 연결
+
+# find 결과를 모든 xargs 로 보내면, xargs 모든 요소를 하나의 문자열로 묶어 준다.
+# 그리고 echo에 전달
+#find ~ -type f -name "foo*" | xargs echo 		# 위와 동일한 결과
+												# 파일 이름을 공백으로 구별
+
+# 공백과 NULL 문자
+#find ~ -type f -name "foo*" -print0 | xargs -0 echo 	# 223p
+														# 공백 대신 NULL문자로 파일 이름 구별
+
+
+# 예제 - c, c++ 소스에서만 원하는 문자열 찾는 함수
+# 사용법
+# srouce find_test
+# cgrep printf
+
+function cgrep()
+{
+	find ~ -type f \( -name "*c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | xargs -0 grep -n "$@"
+}
+

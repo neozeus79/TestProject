@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# sh1. 주석
+
+# inline comment
+
+# here document 문법을 활용
+<< AAA
+여러줄 주석
+AAA
+
+# 아무것도 안하는 작업을 이용한 주석 사용
+: '
+여러줄 
+주석 
+입력
+'
+
+
+echo "sh1"

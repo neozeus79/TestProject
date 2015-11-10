@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# step 2. 화면 출력 방법
+
+# 1. sh 와 bash
+# /bin/sh : unix 시절 최초의 쉘
+# /bin/bash : sh를 개선해서 리눅스 진영이 만든 쉘
+
+declare -i num
+
+# 2.화면 출력 - " " 와 일반 문자열
+echo  hello   world 	# 공백이 하나로 처리
+echo "hello   world"	# 공백 그대로
+
+
+
+# 3. 개행을 제거하는 방법
+echo -n "hello"
+echo    "world"
+
+echo -e "hello \c"
+echo    "world" #include <stdio.h>
+# 

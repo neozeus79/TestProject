@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# sh 6_1. case
+
+name="dccc"
+
+case "$name" in 
+	root) 
+		echo "root"
+		echo "hi root";;
+	aaa | ccc | d*) echo "aaa or ccc or d*";;
+	bbb ) echo "bbb";;
+	* ) echo "others";;
+esac
+
+# 2. good example
+echo -n "yes or no >>"
+read ans
+
+case "$ans" in 
+	[Yy] | [Yy][Ee][Ss] ) echo "yes";;
+	[Nn] | [Nn][Oo] ) echo "no";;
+	* ) echo "$ans";;
+esac

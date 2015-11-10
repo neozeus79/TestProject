@@ -1,0 +1,232 @@
+UID         PID   PPID  C STIME TTY          TIME CMD
+root          1      0  0 16:15 ?        00:00:01 /sbin/init
+root          2      0  0 16:15 ?        00:00:00 [kthreadd]
+root          3      2  0 16:15 ?        00:00:00 [ksoftirqd/0]
+root          5      2  0 16:15 ?        00:00:00 [kworker/0:0H]
+root          7      2  0 16:15 ?        00:00:03 [rcu_sched]
+root          8      2  0 16:15 ?        00:00:00 [rcu_bh]
+root          9      2  0 16:15 ?        00:00:01 [rcuos/0]
+root         10      2  0 16:15 ?        00:00:00 [rcuob/0]
+root         11      2  0 16:15 ?        00:00:00 [migration/0]
+root         12      2  0 16:15 ?        00:00:33 [watchdog/0]
+root         13      2  0 16:15 ?        00:00:00 [khelper]
+root         14      2  0 16:15 ?        00:00:00 [kdevtmpfs]
+root         15      2  0 16:15 ?        00:00:00 [netns]
+root         16      2  0 16:15 ?        00:00:00 [perf]
+root         17      2  0 16:15 ?        00:00:00 [khungtaskd]
+root         18      2  0 16:15 ?        00:00:00 [writeback]
+root         19      2  0 16:15 ?        00:00:00 [ksmd]
+root         20      2  0 16:15 ?        00:00:00 [khugepaged]
+root         21      2  0 16:15 ?        00:00:00 [crypto]
+root         22      2  0 16:15 ?        00:00:00 [kintegrityd]
+root         23      2  0 16:15 ?        00:00:00 [bioset]
+root         24      2  0 16:15 ?        00:00:00 [kblockd]
+root         25      2  0 16:15 ?        00:00:00 [ata_sff]
+root         26      2  0 16:15 ?        00:00:00 [md]
+root         27      2  0 16:15 ?        00:00:00 [devfreq_wq]
+root         29      2  0 16:15 ?        00:00:12 [kworker/0:1]
+root         31      2  0 16:15 ?        00:00:01 [kswapd0]
+root         32      2  0 16:15 ?        00:00:00 [fsnotify_mark]
+root         33      2  0 16:15 ?        00:00:00 [ecryptfs-kthrea]
+root         45      2  0 16:15 ?        00:00:00 [kthrotld]
+root         46      2  0 16:15 ?        00:00:00 [acpi_thermal_pm]
+root         47      2  0 16:15 ?        00:00:00 [scsi_eh_0]
+root         48      2  0 16:15 ?        00:00:00 [scsi_tmf_0]
+root         49      2  0 16:15 ?        00:00:00 [scsi_eh_1]
+root         50      2  0 16:15 ?        00:00:00 [scsi_tmf_1]
+root         55      2  0 16:15 ?        00:00:00 [ipv6_addrconf]
+root         56      2  0 16:15 ?        00:00:00 [kworker/0:2]
+root         76      2  0 16:15 ?        00:00:00 [deferwq]
+root         77      2  0 16:15 ?        00:00:00 [charger_manager]
+root        123      2  0 16:15 ?        00:00:00 [mpt_poll_0]
+root        124      2  0 16:15 ?        00:00:00 [mpt/0]
+root        125      2  0 16:15 ?        00:00:00 [kpsmoused]
+root        127      2  0 16:15 ?        00:00:00 [scsi_eh_2]
+root        128      2  0 16:15 ?        00:00:00 [scsi_tmf_2]
+root        129      2  0 16:15 ?        00:00:00 [scsi_eh_3]
+root        130      2  0 16:15 ?        00:00:00 [scsi_tmf_3]
+root        131      2  0 16:15 ?        00:00:00 [scsi_eh_4]
+root        132      2  0 16:15 ?        00:00:00 [scsi_tmf_4]
+root        133      2  0 16:15 ?        00:00:00 [scsi_eh_5]
+root        134      2  0 16:15 ?        00:00:00 [scsi_tmf_5]
+root        135      2  0 16:15 ?        00:00:00 [scsi_eh_6]
+root        136      2  0 16:15 ?        00:00:00 [scsi_tmf_6]
+root        137      2  0 16:15 ?        00:00:00 [scsi_eh_7]
+root        138      2  0 16:15 ?        00:00:00 [scsi_tmf_7]
+root        139      2  0 16:15 ?        00:00:00 [scsi_eh_8]
+root        140      2  0 16:15 ?        00:00:00 [scsi_tmf_8]
+root        141      2  0 16:15 ?        00:00:00 [scsi_eh_9]
+root        142      2  0 16:15 ?        00:00:00 [scsi_tmf_9]
+root        143      2  0 16:15 ?        00:00:00 [scsi_eh_10]
+root        144      2  0 16:15 ?        00:00:00 [scsi_tmf_10]
+root        145      2  0 16:15 ?        00:00:00 [scsi_eh_11]
+root        146      2  0 16:15 ?        00:00:00 [scsi_tmf_11]
+root        147      2  0 16:15 ?        00:00:00 [scsi_eh_12]
+root        148      2  0 16:15 ?        00:00:00 [scsi_tmf_12]
+root        149      2  0 16:15 ?        00:00:00 [scsi_eh_13]
+root        150      2  0 16:15 ?        00:00:00 [scsi_tmf_13]
+root        151      2  0 16:15 ?        00:00:00 [scsi_eh_14]
+root        152      2  0 16:15 ?        00:00:00 [scsi_tmf_14]
+root        153      2  0 16:15 ?        00:00:00 [scsi_eh_15]
+root        154      2  0 16:15 ?        00:00:00 [scsi_tmf_15]
+root        155      2  0 16:15 ?        00:00:00 [scsi_eh_16]
+root        156      2  0 16:15 ?        00:00:00 [scsi_tmf_16]
+root        157      2  0 16:15 ?        00:00:00 [scsi_eh_17]
+root        158      2  0 16:15 ?        00:00:00 [scsi_tmf_17]
+root        159      2  0 16:15 ?        00:00:00 [scsi_eh_18]
+root        160      2  0 16:15 ?        00:00:00 [scsi_tmf_18]
+root        161      2  0 16:15 ?        00:00:00 [scsi_eh_19]
+root        162      2  0 16:15 ?        00:00:00 [scsi_tmf_19]
+root        163      2  0 16:15 ?        00:00:00 [scsi_eh_20]
+root        164      2  0 16:15 ?        00:00:00 [scsi_tmf_20]
+root        165      2  0 16:15 ?        00:00:00 [scsi_eh_21]
+root        166      2  0 16:15 ?        00:00:00 [scsi_tmf_21]
+root        167      2  0 16:15 ?        00:00:00 [scsi_eh_22]
+root        168      2  0 16:15 ?        00:00:00 [scsi_tmf_22]
+root        169      2  0 16:15 ?        00:00:00 [scsi_eh_23]
+root        170      2  0 16:15 ?        00:00:00 [scsi_tmf_23]
+root        171      2  0 16:15 ?        00:00:00 [scsi_eh_24]
+root        172      2  0 16:15 ?        00:00:00 [scsi_tmf_24]
+root        173      2  0 16:15 ?        00:00:00 [scsi_eh_25]
+root        174      2  0 16:15 ?        00:00:00 [scsi_tmf_25]
+root        175      2  0 16:15 ?        00:00:00 [scsi_eh_26]
+root        176      2  0 16:15 ?        00:00:00 [scsi_tmf_26]
+root        177      2  0 16:15 ?        00:00:00 [scsi_eh_27]
+root        178      2  0 16:15 ?        00:00:00 [scsi_tmf_27]
+root        179      2  0 16:15 ?        00:00:00 [scsi_eh_28]
+root        180      2  0 16:15 ?        00:00:00 [scsi_tmf_28]
+root        181      2  0 16:15 ?        00:00:00 [scsi_eh_29]
+root        182      2  0 16:15 ?        00:00:00 [scsi_tmf_29]
+root        183      2  0 16:15 ?        00:00:00 [scsi_eh_30]
+root        184      2  0 16:15 ?        00:00:00 [scsi_tmf_30]
+root        185      2  0 16:15 ?        00:00:00 [scsi_eh_31]
+root        186      2  0 16:15 ?        00:00:00 [scsi_tmf_31]
+root        214      2  0 16:15 ?        00:00:00 [scsi_eh_32]
+root        215      2  0 16:15 ?        00:00:00 [scsi_tmf_32]
+root        221      2  0 16:15 ?        00:00:00 [kworker/0:1H]
+root        229      2  0 16:15 ?        00:00:00 [jbd2/sda1-8]
+root        230      2  0 16:15 ?        00:00:00 [ext4-rsv-conver]
+root        352      1  0 16:15 ?        00:00:00 upstart-udev-bridge --daemon
+root        357      1  0 16:15 ?        00:00:00 /lib/systemd/systemd-udevd --daemon
+message+    451      1  0 16:15 ?        00:00:00 dbus-daemon --system --fork
+root        494      1  0 16:15 ?        00:00:00 /usr/sbin/bluetoothd
+root        531      1  0 16:15 ?        00:00:00 /lib/systemd/systemd-logind
+syslog      532      1  0 16:15 ?        00:00:00 rsyslogd
+root        536      2  0 16:15 ?        00:00:00 [krfcommd]
+avahi       546      1  0 16:15 ?        00:00:00 avahi-daemon: running [ubuntu.local]
+avahi       547    546  0 16:15 ?        00:00:00 avahi-daemon: chroot helper
+root        575      1  0 16:15 ?        00:00:00 upstart-file-bridge --daemon
+root        581      2  0 16:15 ?        00:00:00 [ttm_swap]
+root        713      1  0 16:15 ?        00:00:00 /usr/sbin/ModemManager
+root        812      1  0 16:15 ?        00:00:00 NetworkManager
+root        817      1  0 16:15 ?        00:00:00 upstart-socket-bridge --daemon
+root        828      1  0 16:15 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root        878      1  0 16:15 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root        882      1  0 16:15 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root        883      1  0 16:15 ?        00:00:01 thermald --no-daemon --dbus-enable
+root        886    812  0 16:15 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-3c854623-e1cc-45af-bbe4-e9ec7b13f2e5-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root        891      1  0 16:15 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root        892      1  0 16:15 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root        895      1  0 16:15 tty6     00:00:00 /sbin/getty -8 38400 tty6
+kernoops    941      1  0 16:15 ?        00:00:00 /usr/sbin/kerneloops
+root        954      1  0 16:15 ?        00:00:00 /usr/sbin/sshd -D
+root        964      1  0 16:15 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       1014      1  0 16:15 ?        00:00:00 cron
+root       1041      1  0 16:15 ?        00:00:00 /usr/sbin/cups-browsed
+root       1067      1  0 16:15 ?        00:00:14 /usr/bin/vmtoolsd
+whoopsie   1112      1  0 16:15 ?        00:00:00 whoopsie
+root       1130      1  0 16:15 tty1     00:00:00 /sbin/getty -8 38400 tty1
+nobody     1137    812  0 16:15 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root       1287      1  0 16:15 ?        00:00:00 lightdm
+root       1302      1  0 16:15 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       1323      2  0 16:15 ?        00:00:00 [kauditd]
+lightdm    1378      1  0 16:15 ?        00:00:00 init --user --startup-event indicator-services-start
+root       1422      1  0 16:15 ?        00:00:00 /usr/lib/upower/upowerd
+lightdm    1440   1378  0 16:15 ?        00:01:42 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit      1442      1  0 16:15 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+lightdm    1688   1378  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+lightdm    1694   1378  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+root       1805   1287  0 16:17 tty7     00:00:48 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       1859   1287  0 16:17 ?        00:00:00 lightdm --session-child 12 19
+colord     1940      1  0 16:17 ?        00:00:00 /usr/lib/colord/colord
+neozeus    2000      1  0 16:17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+neozeus    2002   1859  0 16:17 ?        00:00:00 init --user
+neozeus    2089   2002  0 16:17 ?        00:00:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-oVRslRdKFx
+neozeus    2100   2002  0 16:17 ?        00:00:00 upstart-event-bridge
+neozeus    2113   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+neozeus    2125   2002  0 16:17 ?        00:00:01 /usr/bin/ibus-daemon --daemonize --xim
+neozeus    2156   2002  0 16:17 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+neozeus    2161   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+neozeus    2162   2002  0 16:17 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+neozeus    2163   2002  0 16:17 ?        00:00:00 gnome-session --session=ubuntu
+neozeus    2165   2002  0 16:17 ?        00:00:01 /usr/lib/unity/unity-panel-service
+neozeus    2169   2162  0 16:17 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+neozeus    2172   2002  0 16:17 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+neozeus    2181   2002  0 16:17 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+neozeus    2182   2002  0 16:17 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+neozeus    2183   2002  0 16:17 ?        00:00:00 upstart-file-bridge --daemon --user
+neozeus    2189   2002  0 16:17 ?        00:00:00 /usr/lib/gvfs/gvfsd
+neozeus    2193   2002  0 16:17 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+neozeus    2197   2125  0 16:17 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+neozeus    2205   2125  0 16:17 ?        00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+neozeus    2214   2002  0 16:17 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+neozeus    2223   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+neozeus    2231   2002  0 16:17 ?        00:00:00 /usr/lib/dconf/dconf-service
+neozeus    2242   2002  2 16:17 ?        00:04:11 /usr/bin/pulseaudio --start --log-target=syslog
+neozeus    2244   2125  0 16:17 ?        00:00:00 /usr/lib/ibus/ibus-engine-simple
+neozeus    2262   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+neozeus    2271   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+neozeus    2275   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+neozeus    2277   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+neozeus    2279   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+neozeus    2283   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+neozeus    2286   2002  0 16:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+neozeus    2303   2002  0 16:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
+neozeus    2307   2002  0 16:19 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+neozeus    2314   2002  0 16:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+neozeus    2331   2002  0 16:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+neozeus    2387   2002  0 16:19 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+neozeus    2413   2163  0 16:20 ?        00:01:51 compiz
+neozeus    2423   2163  0 16:20 ?        00:00:01 nautilus -n
+neozeus    2428   2002  0 16:20 ?        00:00:17 /usr/bin/vmtoolsd -n vmusr
+neozeus    2429   2163  0 16:20 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+neozeus    2430   2163  0 16:20 ?        00:00:00 nm-applet
+neozeus    2431   2163  0 16:20 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+neozeus    2444   2002  0 16:20 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+neozeus    2453   2002  0 16:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root       2456      1  0 16:20 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+neozeus    2470   2002  0 16:20 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+neozeus    2476   2002  0 16:20 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+neozeus    2481   2002  0 16:20 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+neozeus    2488   2163  0 16:20 ?        00:00:00 telepathy-indicator
+neozeus    2500   2163  0 16:20 ?        00:00:00 zeitgeist-datahub
+neozeus    2523   2002  0 16:20 ?        00:00:00 /usr/bin/zeitgeist-daemon
+neozeus    2532   2002  0 16:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+neozeus    2541   2002  0 16:20 ?        00:00:00 /usr/lib/telepathy/mission-control-5
+neozeus    2544   2532  0 16:20 ?        00:00:00 /bin/cat
+neozeus    2554   2163  0 16:21 ?        00:00:00 update-notifier
+neozeus    2584   2002  0 16:21 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+neozeus    2595   2002  0 16:21 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+neozeus    2622   2163  0 16:22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+neozeus    2664   2002  0 16:22 ?        00:00:06 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+neozeus    2691   2002  0 16:23 ?        00:00:02 gnome-terminal
+neozeus    2701   2691  0 16:23 ?        00:00:00 gnome-pty-helper
+neozeus    2702   2691  0 16:23 pts/0    00:00:00 bash
+root       2724    954  0 16:23 ?        00:00:00 sshd: neozeus [priv]
+neozeus    2768   2724  0 16:23 ?        00:00:12 sshd: neozeus@pts/9 
+neozeus    2769   2768  0 16:23 pts/9    00:00:00 -bash
+root       2787    954  0 16:24 ?        00:00:00 sshd: neozeus [priv]
+neozeus    2823   2787  0 16:24 ?        00:00:00 sshd: neozeus@pts/18
+neozeus    2824   2823  0 16:24 pts/18   00:00:00 -bash
+root       2901      2  0 16:33 ?        00:00:01 [kworker/u256:0]
+root       3637      1  0 16:41 ?        00:00:00 /usr/sbin/cupsd -f
+lp         3641   3637  0 16:41 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus:// 
+root       4571      2  0 18:41 ?        00:00:00 [kworker/u256:1]
+neozeus    4572   2824  0 18:43 pts/18   00:00:00 vi phone.txt
+root       5020      1  0 19:25 ?        00:00:00 /usr/sbin/vsftpd
+root       5028      2  0 19:25 ?        00:00:00 [kworker/u256:2]
+neozeus    5031   2769  0 19:25 pts/9    00:00:00 vi awk_test
+neozeus    5049   2002  1 19:27 ?        00:00:01 /usr/bin/python3 /usr/share/oneconf/oneconf-service
+neozeus    5084   5031  0 19:29 pts/9    00:00:00 /bin/bash -c  clear; ./awk_test
+neozeus    5086   5084  0 19:29 pts/9    00:00:00 /bin/bash ./awk_test
+neozeus    5087   5086  0 19:29 pts/9    00:00:00 ps -ef

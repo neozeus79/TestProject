@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# sh11 : signal 제어
+# ctrl+c : SIGINT 라는 시그널을 프로세스에 전달하는 것. - 기본 동작 프로세스 종료
+
+trap 'echo "ctrl + c  로 종료되지 않습니다"' INT #INT 시그널(인터럽트)을 처리하는 법
+
+# Ctrl-Z 와 KILL signal은 디폴트 동작을 사용자가 막을 수 없습니다.
+trap 'echo "Ctrl-Z"' TSTP
+trap 'echo "Kill signal"' KILL
+
+while true
+do 
+	echo "some work..."
+	sleep 1
+done
+
