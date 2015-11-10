@@ -1,0 +1,122 @@
+# 총정리
+
+1. linux 설치
+	- ubuntu, centos
+		GUI 환경 설치 (KDE나 GNOME 설치)
+	- 데미안 계열	
+		쉘 설치 (Bash, TC, C Shell 등... )
+		apt-get
+	- 레드햇 계열
+		리눅스 커널 - 모든 linux 가 동일
+		yum
+	** 168page 에 계열 정리
+
+2. linux 설치 후 필요한 프로그램 설치
+	- sshd : for putty 사용 
+	- vsftpd : ftp server, 윈도우에서 파일 꺼내거나 올리기 위해
+	
+	설치 방법 
+		* sudo apt-get install sshd
+		* yum install sshd
+
+	apt-get DB update 
+		* sudo apt-get update
+		* sudo apt-get upgrade (apt-get 으로 설치된 프로그램 업그래이드)
+	
+	** 교재 14장 : apt-get 과 yum 사용법 설명
+
+	** 서버 프로그램 설치 후 설정 파일 변경이 필요한 경우가 많음.
+	** 인터넷에서 "vsftpd 설정 파일" 검색하면 파일 경로 구할 수 있음.
+
+3. 기본 명령어 익히기
+	- ls, ps, cd, mkdir, rm ... - 교재 참고.
+	- 옵션 사용 (man: 도움말 참고)
+		ps -ef, ls -al ...
+
+4. "리다이렉션" 과 "파이프" 개념
+	- 리다이렉션
+		* ls -al > a.txt 	#결과를 파일로
+	- 파이프
+		* ls -al | less 	#결과를 다른 프로그램과 연결
+
+5. 핵심 명령어(프록그램)
+	- find, grep, awk, sed ... ( + "정규 표현식" )
+	
+6. 쉘 스크립트 만들기 
+	- file head
+		#!/bin/bash
+		#!/bin/python
+	- 기본 제어문, 반복문, 변수 만들기...
+	** 교재 25장 ~ 끝까지... html 페이지 만드는 예제가 있음.
+
+7. vi 사용
+	- 단축키 
+		p, yy, d 등..., map <> 으로 단축키 설정
+	- .vimrc 파일 설정하기
+		google 에서 "vi autocmd filetype' 검색
+	- plugin 만들기
+
+8. 사용자 계정 관리하기 - 2일차 소스
+
+9. 파일 권한 부여하는 방법
+	- chmod
+
+10. 프로그램을 설치하는 방법
+	- 자동 설치 
+		apt-get install
+	- 소스로 부터 설치
+		1) 소스 다운로드 
+			* wget [URL]
+			* curl [URL]
+			* git clone [URL]
+
+		2) 소스 빌드
+			make
+			make install
+
+11. git 으로 파일 관리 하기 - pro git pdf 참고
+
+12. 디렉토리 구조
+	/bin, /usr/bin, /sbin 
+		- 실행파일들 모음, 윈도우의 windows, program file 등...
+	/tmp 
+		- 프로그램이 사용하는 임시파일
+	/home/계정
+		- 사용자 홈 디렉토리
+	/proc
+		- 모든 프로세스의 정보가 계속 업데이트
+		- HDD가 아닌 커널 메모리와 연결 되어 있음
+	/usr/include
+		- stdio.h 등의 C 헤더 파일
+	/root
+		- root 홈 디렉토리
+
+13. git을 사용한 파일 관리 기술...
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
